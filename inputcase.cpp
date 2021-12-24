@@ -1,3 +1,4 @@
+//INTEST
 //Note that this problem require fast computation
 //We can use std::printf and std::scanf from stdio.h of C which are quite fast. 
 #include <bits/stdc++.h>
@@ -18,7 +19,6 @@ int main()
             a++;
         }   
     }
-    
-    
+    printf("%d",a);
     return 0;
 }
