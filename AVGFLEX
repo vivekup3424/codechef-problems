@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin >> T;
+    while(T--)
+    {
+        int N;
+        cin >> N;
+        int a[N];
+        for(int i=0;i<N;i++)
+        {
+            cin >> a[i];
+        }
+        int lesser=0,greater=0,boast=0;
+        for(int i=0;i<N;i++)
+        {
+          for(int j=0;j<N;j++)
+          {
+              if(i != j)
+              {
+                  if(a[i] >= a[j])
+               {
+                  lesser++;
+               }
+               else
+               {
+                  greater++;
+               }
+                  
+              }
+          }
+          if(lesser >= greater)
+          {
+              boast++;
+          }
+          lesser=0;
+          greater=0;
+        }
+        cout << boast << endl;
+    }
+	// your code goes here
+	return 0;
+}

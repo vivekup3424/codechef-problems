@@ -6,11 +6,16 @@ int main()
     scanf("%d", &T);
     for (int i = 0; i < T; i++)
     {
-        int N;
+        int N,count = 0;
         scanf("%d",&N);
-        while (N >0){
-            
+        while(N>0){
+            if (N%10 == 4)
+            {
+                count++;
+            }
+            N = N/10;      
         }
+        printf("%d\n",count);
     }
     
     

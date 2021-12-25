@@ -9,7 +9,9 @@ int main()
         int N;
         scanf("%d",&N);
         while (N >0){
-            
+        int a,b,M;
+        a = N%10
+        //N = N
         }
     }
     
