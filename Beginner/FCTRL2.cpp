@@ -8,13 +8,13 @@ int main()
     {
         int N;
         scanf("%d",&N);
-        int64_t product = 1;
+        long long int product = 1;
         while (N >0){
             product = product * N;
             N--;
         }
         //printf("%\n",product);
-        printf("%d\n",product);
+        printf("%lld\n",product);
     }    
     return 0;
 }
