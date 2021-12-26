@@ -8,12 +8,9 @@ int main()
     {
         int N;
         scanf("%d",&N);
-        int product = 1;
         while (N >0){
-            product = product * N;
-            N--;
+            
         }
-        printf("%d\n",product);
     }
     
     
