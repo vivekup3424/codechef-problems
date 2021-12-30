@@ -9,7 +9,8 @@ int main()
         int A,B,C;
         scanf("%d %d %d",&A, &B, &C);
         int arr[3] = {A,B,C};
-        sort(arr,arr+)
+        sort(arr,arr+3);
+        printf("%d\n",arr[1]);
 
     }
     

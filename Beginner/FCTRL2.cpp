@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define MAX_LEN 150
 
 int main()
 {   int T;
@@ -8,13 +9,18 @@ int main()
     {
         int N;
         scanf("%d",&N);
-        long long int product = 1;
-        while (N >0){
-            product = product * N;
-            N--;
+        int arr[MAX_LEN],m;
+        arr[0] = 1;
+        m = 1;
+        for (int i = 1; i < N; i++)
+        {
+         for (int p = 0; p < m; p++)
+         {
+            arr[p]
+         }
+            
         }
-        //printf("%\n",product);
-        printf("%lld\n",product);
+        
     }    
     return 0;
 }
